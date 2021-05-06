@@ -27,4 +27,9 @@ github/ceshiren
    git remote add origin git@github.com:wangjinjin123/python_test_forme.git---创建关联pwd
    git push -u origin main
 
+   查看已提交的代码：
+   git remote add origin git@github.com:wangjinjin123/python_test_forme.git
+   git branch -M main
+   git push -u origin main
+
 """
