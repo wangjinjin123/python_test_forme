@@ -31,5 +31,9 @@ github/ceshiren
    git remote add origin git@github.com:wangjinjin123/python_test_forme.git
    git branch -M main
    git push -u origin main
+   ssh -T git@github.com---测试连接
+   私下学习了解更多的git命令
+
+
 
 """
