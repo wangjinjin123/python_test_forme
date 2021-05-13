@@ -1,14 +1,14 @@
 import unittest
 
 
-from unittest_base.utill.HTMLTestRunner_PY3 import HTMLTestRunner
+from pytest_base.utill.HTMLTestRunner_PY3 import HTMLTestRunner
 
 if __name__ == '__main__':
     report_title = 'TestSearch用例执行报告'
     desc = '我的第一个测试报告'
     report_file = './result.html'
     #执行方法四：匹配某个目录下所有以test开头的py文件，执行这些文件下的所有测试用例
-    test_dir = 'unittest_base/testcases'
+    test_dir = 'pytest_base/testcases'
     disvcover = unittest.defaultTestLoader.discover(test_dir, pattern="test*.py")
     #unittest.TextTestRunner(verbosity=2).run(disvcover)
     with open(report_file ,"wb") as report:
