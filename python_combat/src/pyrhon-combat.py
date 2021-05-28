@@ -38,7 +38,7 @@ github/ceshiren
 """
 创建目录
 创建包
-src 源代码
+api 源代码
 tests 测试用例
 
 """
