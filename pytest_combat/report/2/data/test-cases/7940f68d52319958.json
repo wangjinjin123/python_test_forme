@@ -1,0 +1,140 @@
+{
+  "uid" : "7940f68d52319958",
+  "name" : "test_add[get_datas_add2]",
+  "fullName" : "pytest_combat.testcases.test_calcu_new.TestCalc#test_add",
+  "historyId" : "11b19891de28bf7d7a4fad9b2c30cead",
+  "time" : {
+    "start" : 1622384497689,
+    "stop" : 1622384497689,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "all_start",
+    "time" : {
+      "start" : 1622384497449,
+      "stop" : 1622384497449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_datas_add",
+    "time" : {
+      "start" : 1622384497688,
+      "stop" : 1622384497689,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1622384497449,
+      "stop" : 1622384497449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "all_start::0",
+    "time" : {
+      "start" : 1622384497797,
+      "stop" : 1622384497797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_datas_add::0",
+    "time" : {
+      "start" : 1622384497691,
+      "stop" : 1622384497691,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=0)"
+  }, {
+    "name" : "tag",
+    "value" : "first"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_combat.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_calcu_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EP4FUOH"
+  }, {
+    "name" : "thread",
+    "value" : "11752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_combat.testcases.test_calcu_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_add",
+    "value" : "[1000, 1000, 2000]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=0)", "first" ]
+  },
+  "source" : "7940f68d52319958.json",
+  "parameterValues" : [ "[1000, 1000, 2000]" ]
+}

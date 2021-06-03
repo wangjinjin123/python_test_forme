@@ -1,0 +1,110 @@
+{
+  "uid" : "25dfaf53fe88a62c",
+  "name" : "test_add[exception]",
+  "fullName" : "pytest_combat.testcases.test_calcu_new.TestCalc#test_add",
+  "historyId" : "612c39b3f7e190fa2fa36d5e29d80b58",
+  "time" : {
+    "start" : 1622350694475,
+    "stop" : 1622350694477,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None == 'a'\n  +None\n  -'a'",
+  "statusTrace" : "self = <pytest_combat.testcases.test_calcu_new.TestCalc object at 0x0000019E232587C0>, get_calc = <pytest_combat.api.calculator.Calculator object at 0x0000019E231EFD30>\nget_datas = ['', 5, 'a']\n\n    def test_add(self,get_calc,get_datas):\n        result = None\n        try:\n            #用fixture方法名返回计算器实例并调用计算器中的方法add\n            result = get_calc.add(get_datas[0], get_datas[1])\n            if isinstance(result,float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n    \n    \n>       assert result == get_datas[2]\nE       AssertionError: assert None == 'a'\nE         +None\nE         -'a'\n\ntest_calcu_new.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1622350694242,
+      "stop" : 1622350694242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "get_datas",
+    "time" : {
+      "start" : 1622350694475,
+      "stop" : 1622350694475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "get_datas::0",
+    "time" : {
+      "start" : 1622350694477,
+      "stop" : 1622350694477,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_combat.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_calcu_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EP4FUOH"
+  }, {
+    "name" : "thread",
+    "value" : "2032-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_combat.testcases.test_calcu_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas",
+    "value" : "['', 5, 'a']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "25dfaf53fe88a62c.json",
+  "parameterValues" : [ "['', 5, 'a']" ]
+}

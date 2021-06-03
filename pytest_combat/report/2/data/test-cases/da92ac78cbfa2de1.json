@@ -1,0 +1,110 @@
+{
+  "uid" : "da92ac78cbfa2de1",
+  "name" : "test_div[get_datas_div0]",
+  "fullName" : "pytest_combat.testcases.test_calcu_new.TestCalc#test_div",
+  "historyId" : "1e2044732d2f81d5535f0d18fa5b17a3",
+  "time" : {
+    "start" : 1622384497766,
+    "stop" : 1622384497766,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_datas_div",
+    "time" : {
+      "start" : 1622384497764,
+      "stop" : 1622384497765,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1622384497449,
+      "stop" : 1622384497449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_datas_div::0",
+    "time" : {
+      "start" : 1622384497767,
+      "stop" : 1622384497767,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "fourth"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_combat.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_calcu_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EP4FUOH"
+  }, {
+    "name" : "thread",
+    "value" : "11752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_combat.testcases.test_calcu_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_div",
+    "value" : "[1, 0.1, 10]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "fourth" ]
+  },
+  "source" : "da92ac78cbfa2de1.json",
+  "parameterValues" : [ "[1, 0.1, 10]" ]
+}

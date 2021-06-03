@@ -1,0 +1,7 @@
+test_add: #每个测试case名
+  -
+    big: [10,20,30]
+    small: [0.2,0.3,0.5]
+test_div:
+   -
+     big: [10,2,5]

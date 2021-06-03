@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pytest_combat.testcases.test_calcu_new",
+    "children" : [ {
+      "name" : "test_add[int]",
+      "uid" : "a8e49e3e5c0372e8",
+      "parentUid" : "54d4f2522b2fae3448f0927b1a47207b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622350694242,
+        "stop" : 1622350694242,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[1, 1, 2]" ]
+    }, {
+      "name" : "test_add[minus]",
+      "uid" : "66c1ce9fc8a3adb7",
+      "parentUid" : "54d4f2522b2fae3448f0927b1a47207b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1622350694247,
+        "stop" : 1622350694247,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[-1, -1, 0]" ]
+    }, {
+      "name" : "test_add[bigint]",
+      "uid" : "c14f45aaadc8a765",
+      "parentUid" : "54d4f2522b2fae3448f0927b1a47207b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622350694457,
+        "stop" : 1622350694457,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[1000, 1000, 2000]" ]
+    }, {
+      "name" : "test_add[float]",
+      "uid" : "de8646505d5338e3",
+      "parentUid" : "54d4f2522b2fae3448f0927b1a47207b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622350694467,
+        "stop" : 1622350694467,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[0.1, 0.2, 0.3]" ]
+    }, {
+      "name" : "test_add[exception]",
+      "uid" : "25dfaf53fe88a62c",
+      "parentUid" : "54d4f2522b2fae3448f0927b1a47207b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1622350694475,
+        "stop" : 1622350694477,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['', 5, 'a']" ]
+    } ],
+    "uid" : "pytest_combat.testcases.test_calcu_new"
+  } ]
+}

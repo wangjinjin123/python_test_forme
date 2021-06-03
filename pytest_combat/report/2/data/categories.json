@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -2 == 0\n  +-2\n  -0",
+      "children" : [ {
+        "name" : "test_add[get_datas_add1]",
+        "uid" : "a65db55588c36024",
+        "parentUid" : "c5c0bcb013bfec6ee05f8877f83e1a81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622384497465,
+          "stop" : 1622384497465,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -1, 0]" ]
+      } ],
+      "uid" : "c5c0bcb013bfec6ee05f8877f83e1a81"
+    }, {
+      "name" : "AssertionError: assert None == 'a'\n  +None\n  -'a'",
+      "children" : [ {
+        "name" : "test_add[get_datas_add4]",
+        "uid" : "648fc253df747112",
+        "parentUid" : "643f6f71fe6815ebaf6467c92bdf8b6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622384497703,
+          "stop" : 1622384497704,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', 5, 'a']" ]
+      } ],
+      "uid" : "643f6f71fe6815ebaf6467c92bdf8b6a"
+    }, {
+      "name" : "AssertionError: assert None == 2\n  +None\n  -2",
+      "children" : [ {
+        "name" : "test_div[get_datas_div1]",
+        "uid" : "abbe30d11254cac2",
+        "parentUid" : "1f5c3e7f1f577be760a06a5059101f63",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622384497774,
+          "stop" : 1622384497775,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, 0, 2]" ]
+      } ],
+      "uid" : "1f5c3e7f1f577be760a06a5059101f63"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
