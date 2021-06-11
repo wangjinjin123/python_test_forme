@@ -1,0 +1,27 @@
+address:
+  -
+    interface_name: 创建成员
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+    data: {
+    "userid": "yexing",
+    "name": "夜行",
+    "alias": "Jimmy",
+    "mobile": "13728814550",
+    "department": [1]
+      }
+    method: post
+
+updata:
+  -
+    interface_name: 更新成员
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=token
+    data: {
+      "userid": "moyuqingfeng",
+      "name": "墨雨清风啊"
+        }
+    method: post
+
+  -
+    interface_name: 读取成员
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=token&userid=userid
+    method: get

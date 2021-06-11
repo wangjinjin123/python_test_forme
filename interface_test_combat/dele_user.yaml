@@ -1,0 +1,9 @@
+deleuser:
+  -
+    interface_name: 删除成员
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token=token&userid=userid
+    parame:
+      access_token: "{{token}}"
+      userid: "{{userid}}"
+
+    method: get

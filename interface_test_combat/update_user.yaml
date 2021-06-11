@@ -1,0 +1,9 @@
+updata:
+  -
+    interface_name: 更新成员
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=token
+    data: {
+      "userid": "moyuqingfeng",
+      "name": "墨雨清风啊"
+        }
+    method: post
