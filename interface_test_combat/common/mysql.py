@@ -98,6 +98,11 @@ class Mysql:
             log.error(f"selete语句失败，原因：{e}")
             #delete失败后rollback回滚数据
             cur.excute("rollback")
+
+    def close(self):
+        self.conn.close()
+
+#整体流程整理：连接数据库-建立游标-增删改查sql-执行sql（与客户端建立连接，execute执行）-如果对数据库存在变更，需要提交事务commit-关闭游标-关闭数据库
 #定义对象为单例模式，其他模块可方便使用
 sql = Mysql()
 
